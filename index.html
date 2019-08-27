@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Проект</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="form">
+
+          <div class="ball">
+            <div class="answer" id="answer"></div>
+          </div>
+          <div class="form-group">
+            <div class="form-group-name">
+              <label for="name" class="label">Ваше ім'я:</label>
+              <input class="form-control" type="text" name="" id="name">
+            </div>
+            <div class="form-group-question">
+              <label for="name" class="label">Ваше питання:</label>
+              <input class="form-control" type="text" name="" id="question">
+            </div>
+          </div>
+
+
+          <button class="btn btn-primary" id="submit">
+            Відповідь
+          </button>
+
+          <br />
+          <br />
+
+          <div class="row">
+            <div class="col-md-12">
+              <table class="table" id="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Ім'я</th>
+                    <th scope="col">Запитання</th>
+                    <th scope="col">Відповідь</th>
+                  </tr>
+                </thead>
+                <tbody id="messages">
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
